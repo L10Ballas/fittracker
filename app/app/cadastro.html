@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Empresa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Cadastro de Empresa</h2>
+        <form id="cadastroEmpresaForm">
+            <input type="text" id="razaoSocial" placeholder="Razão Social" required>
+            <input type="text" id="cnpj" placeholder="CNPJ" required>
+            <input type="text" id="nomeFantasia" placeholder="Nome Fantasia" required>
+            <input type="email" id="emailEmpresa" placeholder="E-mail da Empresa" required>
+            <input type="password" id="senhaEmpresa" placeholder="Senha" required>
+            <input type="password" id="confirmarSenhaEmpresa" placeholder="Confirmar Senha" required>
+            <button type="button" onclick="cadastrarEmpresa()">Cadastrar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
